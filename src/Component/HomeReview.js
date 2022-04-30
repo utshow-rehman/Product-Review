@@ -3,8 +3,8 @@ import React from 'react';
 const HomeReview = ({rev}) => {
     const {name,Comment,Rating}=rev;
     return (
-        <div className='col card ms-3'>
-             <h3>Name: {name}</h3>
+        <div className='col-3 card ms-3 mb-2'>
+             <h4>Name: {name}</h4>
              <h5>Rating: {Rating}</h5>
              <p>{Comment}</p>
         </div>

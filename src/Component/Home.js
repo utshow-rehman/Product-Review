@@ -1,14 +1,21 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import ReviewHooks from '../Hooks/ReviewHooks';
 import HomeReview from './HomeReview';
 const Home = () => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/review");
+    }
     const [review,setReview]=ReviewHooks();
+    
     let arr=review;
     if(arr.length>0){
          arr=arr.slice(0 ,3);
     }
     return (
-        <div>
+        <div className='mb-5'>
             <div className='d-flex mt-5'>
            <div className='w-50 '>
                <div>
@@ -39,7 +46,8 @@ const Home = () => {
                 }
         
                </div>
-               <button>See All Reviews</button>
+                {/* go review route  */}
+               <button className='btn btn-primary' onClick={handleClick}>See All Reviews</button>
               
            </div>
         </div>
