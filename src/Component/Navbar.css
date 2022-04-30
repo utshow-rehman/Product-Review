@@ -1,0 +1,10 @@
+nav{
+    margin-top: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 100px;
+    font-size: large;
+
+}
