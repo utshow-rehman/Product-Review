@@ -1,7 +1,12 @@
 import React from 'react';
 import ReviewHooks from '../Hooks/ReviewHooks';
+import HomeReview from './HomeReview';
 const Home = () => {
     const [review,setReview]=ReviewHooks();
+    let arr=review;
+    if(arr.length>0){
+         arr=arr.slice(0 ,3);
+    }
     return (
         <div>
             <div className='d-flex mt-5'>
@@ -18,7 +23,24 @@ const Home = () => {
            </div>
 
            <div className='mt-5'>
-           <h1>Customer Review {review.length}</h1>
+
+            {/* Homepage Review Part     */}
+          
+           <h1>Customer Review</h1>
+           
+               <div className='row m-3'>
+               {
+                   
+                    arr.map(rev => <HomeReview
+                        key={rev.id}
+                        rev={rev}
+                     
+                    ></HomeReview>)
+                }
+        
+               </div>
+               <button>See All Reviews</button>
+              
            </div>
         </div>
     );
