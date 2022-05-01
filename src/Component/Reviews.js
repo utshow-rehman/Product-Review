@@ -5,7 +5,7 @@ import HomeReview from './HomeReview';
 const Reviews = () => {
     const [review,setReview]=ReviewHooks();
     return (
-        <div>
+        <div className='mt-5'>
             <div className='row m-3'>
                {
                    

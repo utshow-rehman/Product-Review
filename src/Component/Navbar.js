@@ -4,7 +4,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='d-flex justify-content-center'>
          <nav>
           <Link to="/home">Home</Link>
           <Link to="/review">Reviews</Link>

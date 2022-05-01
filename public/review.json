@@ -1,38 +1,38 @@
 [
-    {
-      "name": "Max",
-       "id": 1,
-     "Rating":4,
-       "Comment":"Nice Laptop"
-   },
-   {
+  {
     "name": "Max",
-     "id": 2,
-   "Rating":4,
-     "Comment":"Nice Laptop"
- },
- {
-    "name": "Max",
-     "id": 3,
-   "Rating":4,
-     "Comment":"Nice Laptop"
- },
- {
-    "name": "Max",
-     "id": 4,
-   "Rating":4,
-     "Comment":"Nice Laptop"
- },
- {
-    "name": "Max",
-     "id": 5,
-   "Rating":4,
-     "Comment":"Nice Laptop"
- },
- {
-    "name": "Max",
-     "id": 6,
-   "Rating":4,
-     "Comment":"Nice Laptop"
- }
+    "id": 1,
+    "Rating": 4,
+    "Comment": "Nice Laptop"
+  },
+  {
+    "name": "Sayem",
+    "id": 2,
+    "Rating": 5,
+    "Comment": "Dell XPS 13 is a really super nice laptop. Very fast, well built, light weight and compact. I highly recommend it. With Dell, you get what you pay for."
+  },
+  {
+    "name": "Rishad",
+    "id": 3,
+    "Rating": 4.5,
+    "Comment": "Excellent product, great value for money, totally recommended."
+  },
+  {
+    "name": "Sabbir",
+    "id": 4,
+    "Rating": 5,
+    "Comment": "I was very excited to order new Dell XPS 9310 and this long waiting is paid by a very nice laptop, elegant design, strong multitasking process and fulfill all basic works requirement."
+  },
+  {
+    "name": "Masud",
+    "id": 5,
+    "Rating": 3.5,
+    "Comment": "Fast, slick, compact and small enough to carry on the move.."
+  },
+  {
+    "name": "Rabbi",
+    "id": 6,
+    "Rating": 4,
+    "Comment": "Great experience , I ordered a xps13 on the 10th and had it on the 25th , I absolutely love everything about this laptop , price my be the only down side ,however I don't regret spending the money on it."
+  }
 ]

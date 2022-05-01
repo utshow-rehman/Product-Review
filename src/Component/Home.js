@@ -16,12 +16,11 @@ const Home = () => {
     }
     return (
         <div className='mb-5'>
-            <div className='d-flex mt-5'>
-           <div className='w-50 '>
+            <div className='d-flex mt-5 ms-5'>
+           <div className='w-50 ms-5'>
                <div>
-                <h1>Your Best Laptop</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Modi nostrum illo doloribus eveniet nihil. Doloremque molestiae asperiores, ut cumque totam tenetur quis deleniti porro vero.</p>
+                <h1 className='text-primary'>Your Best Laptop</h1>
+                <p>Dell Inspiron 15 3510 comes with Intel Celeron Dual Core N4020 (4MB Cache, 1.10 GHz Up To 2.80 GHz) Processor and Intel UHD Graphics 600. This Dell Inspiron 15 3510 featured 4GB DDR4 2400MHz, 1TB 5400RPM SATA HDD, that will provide you with responsive and stable performance.</p>
                  </div>
            </div>
            <div className='w-50'>
@@ -29,12 +28,12 @@ const Home = () => {
            </div>
            </div>
 
-           <div className='mt-5'>
+           <div className='mt-5 ms-5'>
 
             {/* Homepage Review Part     */}
           
-           <h1>Customer Review</h1>
-           
+           <h1 className='text-center text-primary'>Customer Review</h1>
+              <div className='ms-5'>
                <div className='row m-3'>
                {
                    
@@ -44,10 +43,13 @@ const Home = () => {
                      
                     ></HomeReview>)
                 }
+                </div>
         
                </div>
                 {/* go review route  */}
-               <button className='btn btn-primary' onClick={handleClick}>See All Reviews</button>
+                <div className='d-flex justify-content-center'>
+               <button className='btn btn-primary ' onClick={handleClick}>See All Reviews</button>
+               </div>
               
            </div>
         </div>
