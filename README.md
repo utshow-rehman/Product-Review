@@ -1,6 +1,6 @@
 # Laptop Analysis App
 
-Live Website Link [Website Link](https://github.com/facebook/create-react-app).
+Live Website Link [Website Link](https://effulgent-genie-8661d5.netlify.app/).
 
 A list of technologies used within the project:
 * in this project user can see product reviews.
