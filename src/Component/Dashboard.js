@@ -45,8 +45,8 @@ const Dashboard = () => {
    
     return (
         <div className='mt-5 mb-5'>
-              <h1>Charts</h1>
-            <div className='mt-5'>
+              <h1 className='text-center text-primary'>Charts</h1>
+            <div className='mt-5 ms-5'>
           <LineChart width={600} height={300} data={data}>
           <Line type="monotone"  dataKey="investment" stroke="#8884d8" /> 
           <Line type="monotone"  dataKey="revenue" stroke="#F8CB2E" />
@@ -57,7 +57,7 @@ const Dashboard = () => {
           </LineChart>
           </div>
 
-          <div className='mt-5'>
+          <div className='mt-5 ms-5'>
                <BarChart width={600} height={300} data={data}>
                <XAxis dataKey="month" stroke="#8884d8" />
                <YAxis />

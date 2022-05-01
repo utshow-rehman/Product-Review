@@ -6,7 +6,8 @@ const Reviews = () => {
     const [review,setReview]=ReviewHooks();
     return (
         <div className='mt-5'>
-            <div className='row m-3'>
+            <h1 className='text-center text-primary'>Reviews</h1>
+            <div className='row m-3 mt-5'>
                {
                    
                     review.map(rev => <HomeReview

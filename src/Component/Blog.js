@@ -5,7 +5,7 @@ const Blog = () => {
      let inline="<span/> <img/>"
     return (
         <div className='mt-5'>
-            <h1 className='text-center'>Blog</h1>
+            <h1 className='text-center text-primary'>Blog</h1>
           <div className='ms-5'>
             <h3>Context Api</h3>
             <p>The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. </p>
