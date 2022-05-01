@@ -1,4 +1,4 @@
-# Product Analysis App 
+# Laptop Analysis App
 
 Live Website Link [Website Link](https://github.com/facebook/create-react-app).
 

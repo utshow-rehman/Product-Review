@@ -15,7 +15,9 @@ const Home = () => {
          arr=arr.slice(0 ,3);
     }
     return (
+            
         <div className='mb-5'>
+                
             <div className='d-flex mt-5 ms-5'>
            <div className='w-50 ms-5'>
                <div>
